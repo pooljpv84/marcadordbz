@@ -1,0 +1,44 @@
+#contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+#texto-encima{
+    position: absolute;
+    top: -2px;
+    left: 200px;
+    background: transparent;
+    border: yellow;
+    font-size: 20px
+    
+}
+#label-encima{
+    position: absolute;
+    top: -2px;
+    left: 420px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #000000
+}
+#texto-encima2{
+    position: absolute;
+    top: -2px;
+    left: 710px;
+    background: transparent;
+    border: yellow;
+    font-size: 20px
+    
+}
+#label-encima2{
+    position: absolute;
+    top: -2px;
+    left: 650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #000000
+} 
+
+p {
+    background-color: rgba(255, 0, 0, 0.5);
+}

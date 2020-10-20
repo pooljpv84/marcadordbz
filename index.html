@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hakai Games Marcador Grosso</title>
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+        <script src="bootstrap/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="javascript/main.js"></script>
+        <script src="javascript/contador.js"></script>
+        
+</head>
+<body>
+    
+    <div class="container-fluid" style="background-color: rgba(0,0,255,0);position:absolute; top:7px; left:100px; visibility:visible z-index:1">
+        
+        <img src="imagenes/marcador2.png" alt="marcador2">
+    <div>
+
+            <button class="btn btn-primary" onclick="sumar1()">Player 1 + </button>
+            <button class="btn btn-info" onclick="sumar2()">Player 2 +</button>        
+            <button class="btn btn-danger" onclick="resetmarker()">Reiniciar</button>        
+            <button class="btn btn-warning" onclick=resetall()>Actualizar</button>        
+    </div>
+
+
+    </div>
+    
+    <br>
+    
+    <div style="position:absolute; top:-10px; left:120px; visibility:visible z-index:1">
+        <form method="post" enctype="multipart/form-data" id="uploadForm">
+            <input type="file" name="file" id="file" />
+            
+        </form> 
+    </div>
+    
+    <div style="position:absolute; top:-11px; left:908px; visibility:visible z-index:1">
+            <form method="post" enctype="multipart/form-data" id="uploadForm2">
+                <input type="file" name="file2" id="file2" />
+                
+            </form> 
+        </div>
+    
+    
+    <script src="javascript/main.js"></script>
+    <script src="javascript/main2.js"></script>
+    
+    <div id="contenedor">
+    <input type="text" id="texto-encima">
+    <label for="Name" id="label-encima">0</label>     
+    <label for="Name" id="label-encima2">0</label>     
+    <input type="text" id="texto-encima2">
+    
+    </div>
+
+    
+    
+    </body></html>
